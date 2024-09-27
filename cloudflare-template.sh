@@ -1,12 +1,12 @@
 #!/bin/bash
 ## change to "bin/sh" when necessary
 
-auth_email=""                                       # The email used to login 'https://dash.cloudflare.com'
+auth_email="jennaknudsen99@gmail.com"                                       # The email used to login 'https://dash.cloudflare.com'
 auth_method="token"                                 # Set to "global" for Global API Key or "token" for Scoped API Token
-auth_key=""                                         # Your API Token or Global API Key
-zone_identifier=""                                  # Can be found in the "Overview" tab of your domain
-record_name=""                                      # Which record you want to be synced
-ttl="3600"                                          # Set the DNS TTL (seconds)
+auth_key="Fupp5cacnT3VEm7oD4KdsFd-zIBM7Dr3gaLRcmJH"                                         # Your API Token or Global API Key
+zone_identifier="e2ce2874fe7c3e022718bfa1a106d59e"                                  # Can be found in the "Overview" tab of your domain
+record_name="jennaknudsen.info"                                      # Which record you want to be synced
+ttl=3600                                          # Set the DNS TTL (seconds)
 proxy="false"                                       # Set the proxy to true or false
 sitename=""                                         # Title of site "Example Site"
 slackchannel=""                                     # Slack Channel #example
